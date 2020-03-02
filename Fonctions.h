@@ -1,9 +1,10 @@
-#define NBR_MODULES 7
-#define SOMME_COEFF 16
-#define SOMME_CREDITS 30
+#define NBR_MODULES 7    // nombre des modules
+#define SOMME_COEFF 16   // somme des coefficients
+#define SOMME_CREDITS 30 // somme des credits
 
 typedef struct Etudiant Etudiant;
-struct Etudiant{
+struct Etudiant
+{
 	int num, groupe, credit;
 	char nom[20], prenom[20];
 	float moyenne;
